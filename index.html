@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Aaron Kingslien is an aerospace engineering student at Georgia Tech focused on robotics, space systems, mechanical design, and high-performance engineering."
+    >
+
+    <title>Aaron Kingslien | Aerospace Engineering</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
+
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">
+        Skip to main content
+    </a>
+
+    <header class="site-header" id="site-header">
+        <nav class="navbar container" aria-label="Primary navigation">
+            <a class="site-logo" href="./" aria-label="Aaron Kingslien home">
+                <span class="site-logo__name">Aaron Kingslien</span>
+                <span class="site-logo__mark" aria-hidden="true"></span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="primary-menu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-menu" id="primary-menu">
+                <ul class="nav-links">
+                    <li>
+                        <a class="nav-link active" href="./" aria-current="page">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="./portfolio/">
+                            Portfolio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="./experience/">
+                            Experience
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="./leadership/">
+                            Leadership
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="./biking/">
+                            Biking
+                        </a>
+                    </li>
+                </ul>
+
+                <a
+                    class="nav-resume"
+                    href="./assets/Aaron_Kingslien_Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Resume
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+
+        <section class="hero section">
+            <div class="hero__background" aria-hidden="true">
+                <div class="hero__grid"></div>
+                <div class="hero__orb hero__orb--one"></div>
+                <div class="hero__orb hero__orb--two"></div>
+            </div>
+
+            <div class="hero__layout container">
+                <div class="hero__content reveal">
+                    <p class="eyebrow">
+                        Aerospace Engineering · Georgia Tech
+                    </p>
+
+                    <h1 class="hero__title">
+                        Building space systems from concept to product
+                    </h1>
+
+                    <p class="hero__description">
+                        I am an aerospace engineering student focused on robotics,
+                        space systems, mechanical design, and technical leadership.
+                        I enjoy the challenge of turning complex requirements into working hardware with dependable results.
+                    </p>
+
+                    <div class="hero__actions">
+                        <a class="button button--primary" href="./portfolio/">
+                            Explore my work
+                            <span aria-hidden="true">→</span>
+                        </a>
+
+                        <a
+                            class="button button--secondary"
+                            href="./assets/Aaron_Kingslien_Resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View resume
+                        </a>
+                    </div>
+
+                    <div class="hero__links" aria-label="Professional links">
+                        <a
+                            href="https://www.linkedin.com/in/aaron-kingslien/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn
+                        </a>
+
+                        <span aria-hidden="true"></span>
+
+                        <a
+                            href="https://www.instagram.com/aaronkingslien/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Instagram
+                        </a>
+
+                        <span aria-hidden="true"></span>
+
+                        <a href="mailto:akingslien3@gatech.edu">
+                            Email
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero__visual reveal">
+                    <div class="hero__image-frame">
+                        <img
+                            class="hero__image"
+                            src="./assets/GT_Headshot.JPG"
+                            alt="Aaron Kingslien"
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             FEATURED PORTFOLIO
+        ====================================================== -->
+
+        <section class="featured-work section">
+            <div class="container">
+                <div class="section-heading section-heading--split reveal">
+                    <div>
+                        <p class="eyebrow">Featured portfolio</p>
+
+                    </div>
+
+                </div>
+
+                <div class="portfolio-grid">
+
+                    <article class="portfolio-card reveal" id="lunar-rover">
+                        <a
+                            class="portfolio-card__image-link"
+                            href="./portfolio/#lunar-rover"
+                            aria-label="View lunar rover project"
+                        >
+                            <div class="portfolio-card__image-wrap">
+                                <img
+                                    class="portfolio-card__image"
+                                    src="./assets/NOVA_CAD.png"
+                                    alt="Lunar rover chassis and drivetrain redesign"
+                                    loading="lazy"
+                                >
+                            </div>
+                        </a>
+
+                        <div class="portfolio-card__body">
+                            <div class="portfolio-card__meta">
+                                <span>Mechanical Design</span>
+                                <span>Robotics</span>
+                            </div>
+
+                            <h3>
+                                Lunar Rover Chassis and Drivetrain
+                            </h3>
+
+                            <p>
+                                Redesigned, manufactured, and assembled a complete
+                                rover architecture that reduced mass by 20 percent
+                                while increasing maximum climbing capability from
+                                30 to 55 degrees.
+                            </p>
+
+                            <div class="portfolio-card__metrics">
+                                <span>
+                                    <strong>20%</strong>
+                                    lighter
+                                </span>
+
+                                <span>
+                                    <strong>55°</strong>
+                                    max climb
+                                </span>
+
+                                <span>
+                                    <strong>1,000+</strong>
+                                    CAD components
+                                </span>
+                            </div>
+
+                            <a class="text-link" href="./portfolio/#lunar-rover">
+                                Read more
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-card reveal" id="propulsion">
+                        <a
+                            class="portfolio-card__image-link"
+                            href="./portfolio/#design-build-fly"
+                            aria-label="View propulsion project"
+                        >
+                            <div class="portfolio-card__image-wrap">
+                                <img
+                                    class="portfolio-card__image"
+                                    src="./assets/DBF_AquaBuzz.png"
+                                    alt="Aircraft propulsion and performance testing"
+                                    loading="lazy"
+                                >
+                            </div>
+                        </a>
+
+                        <div class="portfolio-card__body">
+                            <div class="portfolio-card__meta">
+                                <span>Propulsion</span>
+                                <span>Flight Systems</span>
+                            </div>
+
+                            <h3>
+                                Aircraft Propulsion
+                            </h3>
+
+                            <p>
+                                Supported aircraft design through propulsion
+                                simulation, trajectory analysis, component selection,
+                                and static and dynamic thrust testing.
+                            </p>
+
+                            <div class="portfolio-card__metrics">
+                                <span>
+                                    <strong>1st</strong>
+                                    in flight competition
+                                </span>
+
+                                <span>
+                                    <strong>+18%</strong>
+                                    thrust-to-weight ratio
+                                </span>
+
+                                <span>
+                                    <strong>100+</strong>
+                                    Flight tests
+                                </span>
+                            </div>
+
+                            <a class="text-link" href="./portfolio/#design-build-fly">
+                                Read more
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <article class="portfolio-card reveal" id="zero-g">
+                        <a
+                            class="portfolio-card__image-link"
+                            href="./portfolio/#zero-g"
+                            aria-label="View Zero-G research project"
+                        >
+                            <div class="portfolio-card__image-wrap">
+                                <img
+                                    class="portfolio-card__image"
+                                    src="./assets/Dust_Mitigation_Apparatus.jpg"
+                                    alt="Zero-G research experiment"
+                                    loading="lazy"
+                                >
+                            </div>
+                        </a>
+
+                        <div class="portfolio-card__body">
+                            <div class="portfolio-card__meta">
+                                <span>Research</span>
+                                <span>Mechanical Design</span>
+                            </div>
+
+                            <h3>
+                                Zero-G NASA Research
+                            </h3>
+
+                            <p>
+                                Designed and conducted a lunar dust mitigation experiment in microgravity, which
+                                validated the Artemis mission's space suit fabric selection.
+                            </p>
+
+                            <div class="portfolio-card__metrics">
+                                <span>
+                                    <strong>5 lbs</strong>
+                                    weight constraint
+                                </span>
+
+                                <span>
+                                    <strong>4</strong>
+                                    gravities simulated
+                                </span>
+
+                                <span>
+                                    <strong>16</strong>
+                                    trails flight tested
+                                </span>
+                            </div>
+
+                            <a class="text-link" href="./portfolio/#zero-g">
+                                Read more
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <article class="portfolio-card reveal" id="aerolatch">
+                        <a
+                            class="portfolio-card__image-link"
+                            href="./portfolio/#aerolatch"
+                            aria-label="View aerial docking project"
+                        >
+                            <div class="portfolio-card__image-wrap">
+                                <img
+                                    class="portfolio-card__image"
+                                    src="./assets/AeroLatch_Early_Stage.png"
+                                    alt="Autonomous aerial docking system"
+                                    loading="lazy"
+                                >
+                            </div>
+                        </a>
+
+                        <div class="portfolio-card__body">
+                            <div class="portfolio-card__meta">
+                                <span>Robotics</span>
+                                <span>Research</span>
+                            </div>
+
+                            <h3>
+                                Autonomous Aerial Docking
+                            </h3>
+
+                            <p>
+                                Developed compact mechanical concepts for drone latching for mid-air UAV assemblies and battery swapping.
+                            </p>
+
+                            <div class="portfolio-card__metrics">
+                                <span>
+                                    <strong>3 mm</strong>
+                                    release stroke
+                                </span>
+
+                                <span>
+                                    <strong>5 N+</strong>
+                                    force target
+                                </span>
+
+                                <span>
+                                    <strong>1 mm</strong>
+                                    tolerancing
+                                </span>
+                            </div>
+
+                            <a class="text-link" href="./portfolio/#aerolatch">
+                                Read more
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="section-action reveal">
+                    <a class="button button--secondary" href="./portfolio/">
+                        View complete portfolio
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             EXPERIENCE
+        ====================================================== -->
+
+        <section class="experience-preview section">
+            <div class="container">
+                <div class="section-heading section-heading--split reveal">
+                    <div>
+                        <p class="eyebrow">Featured Experience</p>
+                    </div>
+                </div>
+
+                <div class="experience-list">
+
+                    <article class="experience-row reveal">
+                        <div class="experience-row__index">01</div>
+
+                        <div class="experience-row__organization">
+                            <h3>Aerospace Robotics Laboratory</h3>
+                            <p>Georgia Institute of Technology</p>
+                        </div>
+
+                        <div class="experience-row__role">
+                            <span>Undergraduate Researcher</span>
+                            <span>Robotics · Mechanical Systems</span>
+                        </div>
+
+                        <a
+                            class="experience-row__link"
+                            href="./experience/#arl"
+                            aria-label="View Aerospace Robotics Laboratory experience"
+                        >
+                            <span aria-hidden="true">↗</span>
+                        </a>
+                    </article>
+
+                    <article class="experience-row reveal">
+                        <div class="experience-row__index">02</div>
+
+                        <div class="experience-row__organization">
+                            <h3>Southwest Research Institute</h3>
+                            <p>San Antonio, Texas</p>
+                        </div>
+
+                        <div class="experience-row__role">
+                            <span>Aerospace Engineering Intern</span>
+                            <span>Space Hardware · Instrumentation</span>
+                        </div>
+
+                        <a
+                            class="experience-row__link"
+                            href="./experience/#swri"
+                            aria-label="View Southwest Research Institute experience"
+                        >
+                            <span aria-hidden="true">↗</span>
+                        </a>
+                    </article>
+
+                    <article class="experience-row reveal">
+                        <div class="experience-row__index">03</div>
+
+                        <div class="experience-row__organization">
+                            <h3>NASA Intern</h3>
+                            <p>Austin, Texas</p>
+                        </div>
+
+                        <div class="experience-row__role">
+                            <span>Student Researcher</span>
+                            <span>Mechanical Design · Scientific Communication</span>
+                        </div>
+
+                        <a
+                            class="experience-row__link"
+                            href="./experience/#nasa-sees"
+                            aria-label="View NASA SEES experience"
+                        >
+                            <span aria-hidden="true">↗</span>
+                        </a>
+                    </article>
+
+                    <article class="experience-row reveal">
+                        <div class="experience-row__index">04</div>
+
+                        <div class="experience-row__organization">
+                            <h3>Georgia Tech Design Build Fly</h3>
+                            <p>Student Aircraft Design Team</p>
+                        </div>
+
+                        <div class="experience-row__role">
+                            <span>Propulsion Lead</span>
+                            <span>Flight Testing · Simulations</span>
+                        </div>
+
+                        <a
+                            class="experience-row__link"
+                            href="./experience/#dbf"
+                            aria-label="View Design Build Fly experience"
+                        >
+                            <span aria-hidden="true">↗</span>
+                        </a>
+                    </article>
+
+                </div>
+
+                <div class="section-action reveal">
+                    <a class="button button--secondary" href="./experience/">
+                        Explore my experience
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             BEYOND ENGINEERING
+        ====================================================== -->
+
+        <section class="beyond-engineering section">
+            <div class="container">
+                <div class="beyond-engineering__layout">
+
+                    <div class="beyond-engineering__image-wrap reveal">
+                        <img
+                            class="beyond-engineering__image"
+                            src="./assets/BMX_Battle_With_Trevor.jpg"
+                            alt="Aaron Kingslien competing in cycling"
+                            loading="lazy"
+                        >
+
+                        <div class="beyond-engineering__caption">
+                            <span>Team USA BMX</span>
+                            <span>Georgia Tech Cycling</span>
+                        </div>
+                    </div>
+
+                    <div class="beyond-engineering__content reveal">
+                        <p class="eyebrow">Beyond engineering</p>
+
+                        <h2 class="section-title">
+                            Performance is part of who I am.
+                        </h2>
+
+                        <p>
+                            I compete in BMX and mountain biking, represent Georgia
+                            Tech in collegiate cycling, and help lead the community
+                            around the sport. Racing has taught me how to prepare,
+                            make decisions under pressure, recover from failure,
+                            and continue improving when the difference is measured
+                            in fractions of a second.
+                        </p>
+
+                        <div class="beyond-engineering__stats">
+                            <div>
+                                <strong>6×</strong>
+                                <span>State Champion</span>
+                            </div>
+
+                            <div>
+                                <strong>3×</strong>
+                                <span>Gold Cup No. 1</span>
+                            </div>
+
+                            <div>
+                                <strong>2×</strong>
+                                <span>Team USA World Championships</span>
+                            </div>
+                        </div>
+
+                        <div class="beyond-engineering__actions">
+                            <a class="button button--primary" href="./biking/">
+                                Explore biking
+                                <span aria-hidden="true">→</span>
+                            </a>
+
+                            <a class="text-link" href="./leadership/">
+                                View leadership
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             CONTACT
+        ====================================================== -->
+
+        <section class="contact-section section" id="contact">
+            <div class="container">
+                <div class="contact-card reveal">
+
+                    <div class="contact-card__content">
+                        <p class="eyebrow">Let’s connect</p>
+
+                        <h2>
+                            Interested in the work behind the results?
+                        </h2>
+
+                        <p>
+                            I am always interested in connecting with engineers,
+                            researchers, and teams working on ambitious aerospace
+                            and robotics challenges.
+                        </p>
+                    </div>
+
+                    <div class="contact-card__actions">
+                        <a
+                            class="button button--light"
+                            href="mailto:akingslien3@gatech.edu"
+                        >
+                            Send an email
+                        </a>
+
+                        <a
+                            class="button button--outline-light"
+                            href="https://www.linkedin.com/in/aaron-kingslien/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Connect on LinkedIn
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         BACK TO TOP
+    ====================================================== -->
+
+    <footer class="minimal-footer">
+        <div class="container">
+            <a class="back-to-top reveal" href="#main-content">
+                <span>Back to top</span>
+                <span class="back-to-top__arrow" aria-hidden="true">↑</span>
+            </a>
+
+            <p class="minimal-footer__copyright">
+                © <span id="current-year">2026</span> Aaron Kingslien
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

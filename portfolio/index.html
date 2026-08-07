@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Aaron Kingslien engineering portfolio featuring lunar robotics, aircraft propulsion, microgravity research, and autonomous aerial docking."
+    >
+
+    <title>Portfolio | Aaron Kingslien</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../mediaqueries.css">
+    <link rel="stylesheet" href="./portfolio.css">
+
+    <script src="../script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">
+        Skip to main content
+    </a>
+
+    <header class="site-header" id="site-header">
+        <nav class="navbar container" aria-label="Primary navigation">
+            <a class="site-logo" href="../" aria-label="Aaron Kingslien home">
+                <span class="site-logo__name">Aaron Kingslien</span>
+                <span class="site-logo__mark" aria-hidden="true"></span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="primary-menu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-menu" id="primary-menu">
+                <ul class="nav-links">
+                    <li>
+                        <a class="nav-link" href="../">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            class="nav-link active"
+                            href="./"
+                            aria-current="page"
+                        >
+                            Portfolio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="../experience/">
+                            Experience
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="../leadership/">
+                            Leadership
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="../biking/">
+                            Biking
+                        </a>
+                    </li>
+                </ul>
+
+                <a
+                    class="nav-resume"
+                    href="../assets/Aaron_Kingslien_Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Resume
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content" class="portfolio-main">
+
+        <section class="portfolio-jump section" aria-labelledby="portfolio-jump-title">
+            <div class="container">
+                <div class="portfolio-jump__heading">
+                    <p class="eyebrow">Selected engineering projects</p>
+                </div>
+
+                <nav class="portfolio-jump__grid" aria-label="Jump to a project">
+                    <a class="portfolio-jump__card" href="#lunar-rover">
+                        <span class="portfolio-jump__number">01</span>
+                        <div>
+                            <span class="portfolio-jump__category">
+                                Robotics · Mechanical Design
+                            </span>
+                            <h2>Lunar Rover Chassis and Drivetrain</h2>
+                        </div>
+                        <span class="portfolio-jump__arrow" aria-hidden="true">↓</span>
+                    </a>
+
+                    <a class="portfolio-jump__card" href="#design-build-fly">
+                        <span class="portfolio-jump__number">02</span>
+                        <div>
+                            <span class="portfolio-jump__category">
+                                Propulsion · Flight Testing
+                            </span>
+                            <h2>Design/Build/Fly Propulsion</h2>
+                        </div>
+                        <span class="portfolio-jump__arrow" aria-hidden="true">↓</span>
+                    </a>
+
+                    <a class="portfolio-jump__card" href="#zero-g">
+                        <span class="portfolio-jump__number">03</span>
+                        <div>
+                            <span class="portfolio-jump__category">
+                                Research · Microgravity
+                            </span>
+                            <h2>NASA Zero-G Research</h2>
+                        </div>
+                        <span class="portfolio-jump__arrow" aria-hidden="true">↓</span>
+                    </a>
+
+                    <a class="portfolio-jump__card" href="#aerolatch">
+                        <span class="portfolio-jump__number">04</span>
+                        <div>
+                            <span class="portfolio-jump__category">
+                                Robotics · Mechanism Design
+                            </span>
+                            <h2>AeroLatch: Autonomous Aerial Docking</h2>
+                        </div>
+                        <span class="portfolio-jump__arrow" aria-hidden="true">↓</span>
+                    </a>
+                </nav>
+            </div>
+        </section>
+
+        <section class="portfolio-document" aria-label="Engineering portfolio projects">
+<article class="project-page project-page--long-title" id="lunar-rover">
+<p class="portfolio-label">
+                Aaron Kingslien — Portfolio
+            </p>
+<header class="project-header">
+<span class="project-number">01</span>
+<h1 class="project-title">
+                    Lunar Rover Chassis and Drivetrain
+                </h1>
+<p class="project-lead">
+                    Independently redesigned, manufactured, and assembled a
+                    complete rover to reduce mass, improve serviceability,
+                    and increase terrain capability.
+                </p>
+</header>
+<section class="project-gallery">
+<figure class="gallery-item">
+<div class="gallery-image">
+<img alt="Complete rover CAD assembly" src="../assets/NOVA_CAD.png"/>
+</div>
+<figcaption>
+                        Complete SolidWorks assembly
+                    </figcaption>
+</figure>
+<figure class="gallery-item">
+<div class="gallery-image">
+<img alt="Rover manufacturing and assembly" src="../assets/NOVA_Assembling.jpg"/>
+</div>
+<figcaption>
+                        Assembling and system integration
+                    </figcaption>
+</figure>
+<figure class="gallery-item">
+<div class="gallery-image">
+<!-- REPLACE IMAGE: Completed rover testing. -->
+<img alt="Completed rover during mobility testing" src="../assets/NOVA_Magazine.png"/>
+</div>
+<figcaption>
+                        Rover on front cover of school magazine (not me pictured)
+                    </figcaption>
+</figure>
+</section>
+<section class="project-content">
+<div class="project-narrative">
+<p>
+                        Before coming into the Aerospace Robotics Lab, the original
+                        rover was unoptimized as a research platform due to excess mass
+                        and difficult internal access. I treated
+                        the chassis, drivetrain, electronics, wiring, and removable
+                        hardware as one connected system rather than isolated
+                        components, which allowed me to consider its ease of assembly and
+                        maintenance.
+                    </p>
+<p>
+                        A complete digital assembly allowed me to validate
+                        packaging, fastener access, tool clearance, cable routing,
+                        and assembly order before manufacturing. I then carried the
+                        design through fabrication, electrical integration,
+                        troubleshooting, and operational testing.
+                    </p>
+</div>
+<div class="project-highlights">
+<article class="highlight-item">
+<span class="highlight-number">01</span>
+<div>
+<h2>Architecture</h2>
+<p>
+                                Rebuilt the chassis around the components we intended to preserve while accounting for
+                                updated loading conditions and manufacturing constraints.
+                            </p>
+</div>
+</article>
+<article class="highlight-item">
+<span class="highlight-number">02</span>
+<div>
+<h2>Mobility</h2>
+<p>
+                                Revised drivetrain geometry to improve traction and torque
+                                using a combination of published research and previous experimental data.
+                            </p>
+</div>
+</article>
+<article class="highlight-item">
+<span class="highlight-number">03</span>
+<div>
+<h2>Accessibility</h2>
+<p>
+                                Improved access to electronics and removable components, primarily due
+                                to a central bracket that allowed the rover to be disassembled into two halves.
+                            </p>
+</div>
+</article>
+</div>
+</section>
+<section class="project-metrics">
+<div class="metric">
+<strong>20%</strong>
+<span>lower mass</span>
+</div>
+<div class="metric">
+<strong>23° → 42°</strong>
+<span>maximum climbing angle</span>
+</div>
+<div class="metric">
+<strong>1,000+</strong>
+<span>CAD components</span>
+</div>
+</section>
+<section aria-label="Lunar rover tools and skills" class="project-tools">
+<p>
+<strong>Tools and Skills Used:</strong>
+<span>SolidWorks</span> ·
+                    <span>Design for Manufacturability</span> ·
+                    <span>Mechanical Assembly</span> ·
+                    <span>Electrical Integration</span> ·
+                    <span>Rapid Prototyping</span>
+</p>
+</section>
+</article>
+
+<article class="project-page" id="design-build-fly">
+<header class="project-header">
+<span class="project-number">02</span>
+<h1 class="project-title">
+                    Design/Build/Fly Propulsion
+                </h1>
+<p class="project-lead">
+                    Led propulsion analysis, component selection, testing, and
+                    aircraft integration for a competition aircraft that placed
+                    first in flight performance.
+                </p>
+</header>
+<section class="project-gallery">
+<figure class="gallery-item">
+<div class="gallery-image">
+<img alt="Design Build Fly competition aircraft" src="../assets/DBF_Balsa_Flight_Test.png"/>
+</div>
+<figcaption>
+                        Competition aircraft configuration during flight testing
+                    </figcaption>
+</figure>
+<figure class="gallery-item">
+<div class="gallery-image">
+<img alt="Aircraft propulsion and trajectory analysis" src="../assets/DBF_Propulsion_Analysis.png"/>
+</div>
+<figcaption>
+                        Trajectory driver analysis for propulsion selection
+                    </figcaption>
+</figure>
+<figure class="gallery-item">
+<div class="gallery-image">
+<img alt="Aircraft propulsion testing" src="../assets/DBF_Wind_Tunnel.png"/>
+</div>
+<figcaption>
+                        Wind tunnel dynamic thrust testing
+                    </figcaption>
+</figure>
+</section>
+<section class="project-content">
+<div class="project-narrative">
+<p>
+                        Propulsion performance had to be balanced with mass optimizations,
+                        a 450 W power limit, and the needs of other subsystems.
+                        My job was to deliver the strongest integrated
+                        system for the competition mission while leading a propulsion team
+                        and maintaining a constant line of communication with other subteams.
+                    </p>
+<p>
+                        For each design cycle, I ran a trajectory driver simulation
+                        with an in-house tool I helped optimize called Whitmore, which
+                        calculates millions of propulsion performance scenarios based on motors, propellers,
+                        and batteries. I then took the top 3 outputs and ran static and dynamic
+                        thrust testing in Georgia Tech's wind tunnel to validate the results and inform my final selection.
+                        In the event I'm allocated a new subsystem mass, I made sure to have
+                        backup propulsion configurations that can be swapped in to meet the new requirements.
+                    </p>
+</div>
+<div class="project-highlights">
+<article class="highlight-item">
+<span class="highlight-number">01</span>
+<div>
+<h2>Modeling</h2>
+<p>
+                                Optimized a trajectory driver to evaluate the best
+                                propulsion configurations for the highest competition score with a given subsystem mass.
+                            </p>
+</div>
+</article>
+<article class="highlight-item">
+<span class="highlight-number">02</span>
+<div>
+<h2>Selection</h2>
+<p>
+                                Confirmed requirements with the team lead and selected the top
+                                3 models from the trajectory driver for testing.
+                            </p>
+</div>
+</article>
+<article class="highlight-item">
+<span class="highlight-number">03</span>
+<div>
+<h2>Validation</h2>
+<p>
+                                Combined static and dynamic measurements in Georgia Tech's wind tunnel coupled with more than
+                                100 developmental flight tests.
+                            </p>
+</div>
+</article>
+</div>
+</section>
+<section class="project-metrics">
+<div class="metric">
+<strong>1st</strong>
+<span>flight competition</span>
+</div>
+<div class="metric">
+<strong>+18%</strong>
+<span>thrust-to-weight ratio</span>
+</div>
+<div class="metric">
+<strong>100+</strong>
+<span>flight tests</span>
+</div>
+</section>
+<section aria-label="Design Build Fly tools and skills" class="project-tools">
+<p>
+<strong>Tools and Skills Used:</strong>
+<span>Whitmore Trajectory Driver</span> ·
+                    <span>Propulsion Modeling</span> ·
+                    <span>Wind Tunnel Testing</span> ·
+                    <span>Static and Dynamic Thrust Testing</span> ·
+                    <span>Flight Testing</span>
+</p>
+</section>
+</article>
+
+<article class="project-page" id="zero-g">
+<header class="project-header">
+<span class="project-number">03</span>
+<h1 class="project-title">
+                    NASA Zero-G Research
+                </h1>
+<p class="project-lead">
+                    Designed and flight-tested a lunar dust mitigation experiment
+                    that evaluated spacesuit materials across reduced-gravity
+                    environments.
+                </p>
+</header>
+<section class="project-gallery">
+<figure class="gallery-item">
+<div class="gallery-image">
+<img alt="Original lunar dust mitigation apparatus design" src="../assets/Old_NASA_CAD.png"/>
+</div>
+<figcaption>
+                        Original 50 lb idea before weight limit
+                    </figcaption>
+</figure>
+<figure class="gallery-item">
+<div class="gallery-image">
+<img alt="Mechanical design of the dust apparatus" src="../assets/Dust_Mitigation_Apparatus.jpg"/>
+</div>
+<figcaption>
+                        90% mass reduced apparatus
+                    </figcaption>
+</figure>
+<figure class="gallery-item">
+<div class="gallery-image">
+<img alt="Microgravity experiment flight" src="../assets/Zero-G_Flight_Test.png"/>
+</div>
+<figcaption>
+                        Microgravity flight testing
+                    </figcaption>
+</figure>
+</section>
+<section class="project-content">
+<div class="project-narrative">
+<p>
+                        When I was given a $10,000 grant from NASA to design a lunar dust mitigation experiment
+                        as a part of their Zero-G program, I was given a 50 lb weight limit and goal to test 4
+                        materials across 4 environments: Earth, Mars, Moon, and microgravity.
+                        The objective was to simulate a planetary dust storm and evaluate the adhesion-resistance
+                        of different spacesuit fabrics.
+                    </p>
+<p>
+                        However, after completing the CAD and beginning the assembly, a new weight limit of 5 lb was imposed
+                        by the Zero-G aircraft safety team 3 weeks before the flight. I had to quickly redesign the apparatus to meet the new weight limit while still
+                        meeting the original research goals.
+                    </p>
+<p>
+                        I was ultimately able to successfully flight test all 16 combinations of fabrics and gravity/dust environments,
+                        and the results were consistent with the Artemis mission's use of Kevlar.
+                    </p>
+</div>
+<div class="project-highlights">
+<article class="highlight-item">
+<span class="highlight-number">01</span>
+<div>
+<h2>Packaging</h2>
+<p>
+                                Fit the apparatus within strict mass, volume, and
+                                aircraft-safety constraints.
+                            </p>
+</div>
+</article>
+<article class="highlight-item">
+<span class="highlight-number">02</span>
+<div>
+<h2>Containment</h2>
+<p>
+                                Prevented lunar simulant from escaping during
+                                rapidly changing gravity and pressure conditions.
+                            </p>
+</div>
+</article>
+<article class="highlight-item">
+<span class="highlight-number">03</span>
+<div>
+<h2>Repeatability</h2>
+<p>
+                                Developed controlled trials for comparing materials
+                                across gravity environments.
+                            </p>
+</div>
+</article>
+</div>
+</section>
+<section class="project-metrics">
+<div class="metric">
+<strong>5 lb</strong>
+<span>apparatus constraint</span>
+</div>
+<div class="metric">
+<strong>4</strong>
+<span>gravity environments</span>
+</div>
+<div class="metric">
+<strong>16</strong>
+<span>flight-tested trials</span>
+</div>
+</section>
+<section aria-label="NASA Zero-G tools and skills" class="project-tools">
+<p>
+<strong>Tools and Skills Used:</strong>
+<span>SolidWorks</span> ·
+                    <span>Experimental Design</span> ·
+                    <span>Rapid Redesign</span> ·
+                    <span>Mechanical Assembly</span> ·
+                    <span>Microgravity Flight Testing</span>
+</p>
+</section>
+</article>
+
+<article class="project-page project-page--long-title project-page--dense-copy" id="aerolatch">
+<header class="project-header">
+<span class="project-number">04</span>
+<h1 class="project-title">
+                    AeroLatch: Autonomous Aerial Docking
+                </h1>
+<p class="project-lead">
+                    Developing a compact latching mechanism for mid-air UAV
+                    assembly, separation, and autonomous battery exchange.
+                </p>
+</header>
+<section class="project-gallery">
+<figure class="gallery-item">
+<div class="gallery-image">
+<!-- REPLACE IMAGE: Early AeroLatch CAD. -->
+<img alt="Early AeroLatch mechanical architecture" src="../assets/AeroLatch_Cross_Section.png"/>
+</div>
+<figcaption>
+                        SolidWorks structural cross-section
+                    </figcaption>
+</figure>
+<figure class="gallery-item">
+<div class="gallery-image">
+<img alt="AeroLatch male component overview" src="../assets/AeroLatch_Male_Component_CAD.png"/>
+</div>
+<figcaption>
+                        Male component lever and piston overview
+                    </figcaption>
+</figure>
+<figure class="gallery-item">
+<div class="gallery-image">
+<img alt="AeroLatch prototype testing" src="../assets/AeroLatch_Next_To_Drones.jpg"/>
+</div>
+<figcaption>
+                        Completed prototypes
+                    </figcaption>
+</figure>
+</section>
+<section class="project-content">
+<div class="project-narrative">
+<p>
+                        I am leading an ongoing project at the Aerospace Robotics Lab
+                        called AeroLatch, which is developing a compact latching mechanism
+                        that allows multiple drones to assemble and separate in mid-air
+                        with the use of only a micro-solenoid actuator.
+                    </p>
+<p>
+                        The latch works by the solenoid of the female component pressing the spring-loaded piston of the male,
+                        which retracts the levers holding the system in place.
+                        Currently, I have successfully tested the latch in isolation and am waiting on a coordinate accuracy fix from the 
+                        controls team to begin testing the latch in flight.
+                    </p>
+<p>
+                        After proving the concept with an assembly of 4 drones, I will
+                        work on the world's first autonomous battery exchange system,
+                        which will allow a drone to land on a second drone and swap batteries in mid-air.
+                        This serves as a practically infinite flight time solution for drones,
+                        which can increase the feasibility of city-based drone delivery services.
+                    </p>
+</div>
+<div class="project-highlights">
+<article class="highlight-item">
+<span class="highlight-number">01</span>
+<div>
+<h2>Latching</h2>
+<p>
+                                Levers mechanically retract and snap back into place to secure the male and female through a spring-loaded piston.
+                            </p>
+</div>
+</article>
+<article class="highlight-item">
+<span class="highlight-number">02</span>
+<div>
+<h2>Actuation</h2>
+<p>
+                                Minimized scale and actuation force to allow a single, 5 N micro-solenoid to actuate the latch.
+                            </p>
+</div>
+</article>
+<article class="highlight-item">
+<span class="highlight-number">03</span>
+<div>
+<h2>Integration</h2>
+<p>
+                                Designed around UAV geometry, alignment, electrical
+                                interfaces, and battery removal.
+                            </p>
+</div>
+</article>
+</div>
+</section>
+<section class="project-metrics">
+<div class="metric">
+<strong>3 mm</strong>
+<span>release stroke</span>
+</div>
+<div class="metric">
+<strong>5 N</strong>
+<span>actuation target</span>
+</div>
+<div class="metric">
+<strong>&lt;1 mm</strong>
+<span>alignment tolerance</span>
+</div>
+</section>
+<section aria-label="AeroLatch tools and skills" class="project-tools">
+<p>
+<strong>Tools and Skills Used:</strong>
+<span>SolidWorks</span> ·
+                    <span>Mechanism Design</span> ·
+                    <span>Tolerance Analysis</span> ·
+                    <span>Rapid Prototyping</span> ·
+                    <span>Electromechanical Integration</span>
+</p>
+</section>
+</article>
+        </section>
+
+        <section class="contact-section section" id="contact">
+            <div class="container">
+                <div class="contact-card">
+                    <div class="contact-card__content">
+                        <p class="eyebrow">Let’s connect</p>
+
+                        <h2>
+                            Interested in the work behind the results?
+                        </h2>
+
+                        <p>
+                            I am always interested in connecting with engineers,
+                            researchers, and teams working on ambitious aerospace
+                            and robotics challenges.
+                        </p>
+                    </div>
+
+                    <div class="contact-card__actions">
+                        <a
+                            class="button button--light"
+                            href="mailto:akingslien3@gatech.edu"
+                        >
+                            Send an email
+                        </a>
+
+                        <a
+                            class="button button--outline-light"
+                            href="https://www.linkedin.com/in/aaron-kingslien/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Connect on LinkedIn
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-next">
+                    <a class="button button--primary" href="../experience/">
+                        Continue to experience
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="minimal-footer">
+        <div class="container">
+            <a class="back-to-top" href="#main-content">
+                <span>Back to top</span>
+                <span class="back-to-top__arrow" aria-hidden="true">↑</span>
+            </a>
+
+            <p class="minimal-footer__copyright">
+                © <span id="current-year">2026</span> Aaron Kingslien
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
