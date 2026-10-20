@@ -538,6 +538,7 @@
 }
 
 @media print {
+    .skip-link,
     .site-header,
     .portfolio-jump,
     .contact-section,
